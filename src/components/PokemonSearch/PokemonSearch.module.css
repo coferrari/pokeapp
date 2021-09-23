@@ -1,0 +1,34 @@
+.bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+/* .card {
+}
+
+.bgcard {
+} */
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.grass {
+    background-color: green;
+}
+
+.poison {
+    background-color: purple;
+}
+
+.titles {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 1px;
+}

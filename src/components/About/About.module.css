@@ -1,0 +1,12 @@
+.bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    margin: 90px 200px;
+}
+.card {
+    height: 400px;
+    width: 1000px;
+}

@@ -1,0 +1,5 @@
+.bg {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+}
