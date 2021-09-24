@@ -26,6 +26,24 @@
     background-color: purple;
 }
 
+.earth {
+    background-color: lightgreen;
+}
+
+.ground {
+    background-color: maroon;
+}
+
+.fire {
+    background-color: red;
+}
+
+.water {
+    background-color: blue;
+}
+
+
+
 .titles {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
