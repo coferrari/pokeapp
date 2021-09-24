@@ -1,14 +1,43 @@
+.card {
+    top: 120px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .bg {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
-}
-/* .card {
+    width: 700px;
+    height: 400px;
 }
 
-.bgcard {
-} */
+.addfavbtn {
+    position: absolute;
+    background-color: coral;
+    padding: 10px 15px;
+    border: none;
+}
+
+.addfavbtn:hover {
+    background-color: lightgreen;
+}
+
+.removefavbtn {
+    background-color: cornflowerblue;
+    padding: 10px 15px;
+    border: none;
+}
+
+.removefavbtn:hover {
+    background-color: lightgreen;
+}
+
+.imgpoke {
+    height: 400px;
+}
 
 .column {
     display: flex;
