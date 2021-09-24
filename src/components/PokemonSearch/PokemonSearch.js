@@ -60,8 +60,9 @@ const PokemonSearch = () => {
                 <h3 className={style.titles}>{state.pokemon[0].name}</h3>
                 {state.pokemon.length >= 1 &&
                   state.pokemon[0].types?.map((t) =>
+                  <div className={style.types}>{
                     t.type.name === "normal" ? (
-                      <div className={style.poison}>{t.type.name}</div>
+                      <div className={style.normal}>{t.type.name}</div>
                     ) : t.type.name === "fighting" ? (
                       <div className={style.fighting}>{t.type.name}</div>
                     ) : t.type.name === "flying" ? (
@@ -77,7 +78,7 @@ const PokemonSearch = () => {
                     ) : t.type.name === "ghost" ? (
                       <div className={style.ghost}>{t.type.name}</div>
                     ) : t.type.name === "steel" ? (
-                      <div className={style.fighting}>{t.type.name}</div>
+                      <div className={style.steel}>{t.type.name}</div>
                     ) : t.type.name === "fire" ? (
                       <div className={style.fire}>{t.type.name}</div>
                     ) : t.type.name === "water" ? (
@@ -97,6 +98,7 @@ const PokemonSearch = () => {
                     ) : t.type.name === "fairy" ? (
                       <div className={style.fairy}>{t.type.name}</div>
                     ) : null
+                  }</div>
                   )}
 
                 <Link to={`/pokemon/${state.pokemon[0].id}`}>

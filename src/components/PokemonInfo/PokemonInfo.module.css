@@ -1,26 +1,4 @@
-.bg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
-}
-/* .card {
-}
 
-.bgcard {
-} */
-
-.column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 100px;
-}
-
-.types {
-    /* background-color: burlywood; */
-}
 .normal {
     background-color: grey;
     color: white;
@@ -155,13 +133,4 @@
     padding: 7px 12px;
     margin: 10px;
     border-radius: 12%;
-}
-
-
-
-.titles {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: 1px;
 }
