@@ -36,7 +36,6 @@ const SearchPokemon = () => {
           Go!
         </button>
       </div>
-      ` `
     </>
   );
 };

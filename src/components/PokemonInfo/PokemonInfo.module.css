@@ -1,3 +1,88 @@
+.background {
+    background-color: lightgray;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    top: 100px;
+    position: relative;
+    /* background-color: darkgoldenrod; */
+    /* padding: 20px; */
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+.breeding {
+    justify-content: start;
+    padding: 20px;
+}
+
+.containerstatsandbreeding {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: start;
+    padding: 20px;
+}
+
+.stats {
+    /* background-color: cornflowerblue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+.imgpoke {
+    height: 400px;
+}
+
+.types {
+    display: flex;
+}
+
+.title {
+    text-transform: capitalize;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+}
+.subtitles {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.textspan {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    list-style-type: none;
+}
 
 .normal {
     background-color: grey;
