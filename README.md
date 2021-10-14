@@ -1,12 +1,3 @@
-<!-- POKEAPP -->
-<!-- <br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-<!--     <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
-  </a>
-  </p>
-  
- -->
  
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -58,6 +49,6 @@ Contributions are what make the open source community such an amazing place to l
 <!-- CONTACT -->
 ## Contact
 
-Constanza Ferrari - [@your_twitter](https://www.linkedin.com/in/constanzaferrari/) - ferrariconstanza@gmail.com
+Constanza Ferrari - [@constanzaferrari](https://www.linkedin.com/in/constanzaferrari/) - ferrariconstanza@gmail.com
 
 
