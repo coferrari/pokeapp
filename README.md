@@ -4,7 +4,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-PokeApp is a SPA (Single Page Application) I developed while learning React.js and Redux at Henry's Bootcamp. It consumed external data from https://pokeapi.co/
+PokeApp is a SPA (Single Page Application) I developed while learning React.js and Redux at Henry's Bootcamp. It consumes external data from https://pokeapi.co/
 
 
 ### Built With
